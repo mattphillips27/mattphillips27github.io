@@ -1,12 +1,12 @@
 ---
 layout: default
 modal-id: 2
-title: Networked Tower Defence Shooter
-img: cabin.png
-img2: cabin.png
-img3: cabin.png
+title: Pulse
+img: Pulse.jpg
+img2: 
+img3: 
 alt: image-alt
 engine: Unreal Engine 4
-description: For my final year project I set out to create a networked game, Project Mars. In this team game the commander helps by placing equipment and turrets while the soliders tackle the enemy on the ground.
+description: As a junior tech last year, I helped create Pulse, a 3rd person shooter multiplayer game. I developed numerous gameplay features such as the initial wall running mechanic, UI elements and player cooldowns.
 
 ---
