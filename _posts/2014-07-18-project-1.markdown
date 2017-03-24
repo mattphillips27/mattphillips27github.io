@@ -2,9 +2,9 @@
 layout: default
 modal-id: 1
 title: Networked Tower Defence Shooter
-img: img/portfolio/FYP/FYP.jpg
-img2: img/portfolio/FYP/FYP1.png
-img3: img/portfolio/FYP/FYP2.png
+img: FYP/FYP.jpg
+img2: FYP/FYP1.png
+img3: FYP/FYP2.png
 alt: image-alt
 engine: Unreal Engine 4
 description: For my final year project I set out to create a networked game, Project Mars. In this team game the commander helps by placing equipment and turrets while the soliders tackle the enemy on the ground.
