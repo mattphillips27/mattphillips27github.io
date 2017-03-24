@@ -1,4 +1,6 @@
-<section id="portfolio">
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -7,108 +9,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#FYP" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                {% for post in site.posts %}
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
                             </div>
-                        </div>
-                        <img src="img/portfolio/FYP/FYP.jpg" class="img-responsive" alt="">
-						<p>Networked Tower Defence Shooter</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#Cactus" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-							<i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/CactusCare.jpg" class="img-responsive" alt="">
-						<p>Cactus Care</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#BirdLife" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/BirdLife/BirdLife.jpg" class="img-responsive" alt="">
-						<p>Bird Life</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#Pulse" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Pulse.jpg" class="img-responsive" alt="">
-						<p>Pulse</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#dond" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dond.png" class="img-responsive" alt="">
-						<p>Deal or no Deal</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#Maxwell" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Maxwell/Maxwell.jpg" class="img-responsive" alt="">
-						<p>Maxwell's Farm</p>
-                    </a>
-                </div>
-				
-				<div class="col-sm-4 portfolio-item">
-					
-                    <a href="#FM" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/FM/FM.png" class="img-responsive" alt="">
-						<img class="inlay" src="img/new.png" class="img-responsive" alt="">
-						<p>Football Manager</p>
-                    </a>
-                </div>
-				<div class="col-sm-4 portfolio-item">
-                    <a href="#FSU" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/FSU/Overview.png" class="img-responsive" alt="">
-						<img class="inlay" src="img/new.png" class="img-responsive" alt="">
-						<p>Hijacked</p>
-                    </a>
-                </div>
-				<div class="col-sm-4 portfolio-item">
-                    <a href="#empty" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        
-                    </a>
-                </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+							<p>{{ post.title }}</p>
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </section>
