@@ -1,29 +1,25 @@
     <!-- Footer -->
-    <footer class="text-center">
+     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
+                        <h3>More Contacts</h3>
                         <ul class="list-inline">
-                            {% for network in site.social %}
                             <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                                <a href="https://www.facebook.com/SgtFluffy" class="btn-social btn-outline"><i class="fa fa-facebook-square"></i></a>
                             </li>
-		                    {% endfor %}
+                            <li>
+                                <a href="https://www.linkedin.com/in/mattjohnphillips" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+							
+							 <p>Mobile Number: 07743193434</p>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                       
                     </div>
                 </div>
             </div>
@@ -32,7 +28,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        Copyright &copy; Matthew Phillips 2016
                     </div>
                 </div>
             </div>
