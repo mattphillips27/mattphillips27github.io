@@ -1,6 +1,5 @@
- <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="FYP" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,21 +11,89 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2>Networked Tower Defence Shooter</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+							<p>For my final year project I set out to create a networked game, Project Mars. In this team game the commander helps by placing equipment and turrets while the soliders tackle the enemy on the ground.</p>
+                          
+							<img id="video" src="img/portfolio/FYP/FYP.jpg" class="img-responsive img-centered" alt="" data-vidid="">
+							
+							<p>Screenshots:</p>		
+							
+							<img id="video" src="img/portfolio/FYP/FYP1.png" class="img-responsive img-centered" alt="" data-vidid="">
+							
+							<img id="video" src="img/portfolio/FYP/FYP2.png" class="img-responsive img-centered" alt="" data-vidid="">
+                           
+							<p>Created in Unreal Engine 4.</p>
+							
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="Pulse" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pulse</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Pulse.jpg" class="img-responsive img-centered" alt="" data-vidid="">
+                            <p>As a junior tech last year, I helped create Pulse, a 3rd person shooter multiplayer game.</p>
+							<p>I developed numerous gameplay features such as the initial wall running mechanic, UI elements and player cooldowns.</p>
+							<p>Created in Unreal Engine 4.</p>      
+							<ul class="list-inline item-details">
+                                <li>Link:
+                                    <strong><a href="https://www.facebook.com/entitygames/?fref=ts">Facebook Page</a>
+                                    </strong>
+                                </li>
+                            </ul>							
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="BirdLife" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Bird Life</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/BirdLife/BirdLife.jpg" class="img-responsive img-centered" alt="" data-vidid="iGbhHvgu8xk">
+                            <p>As Lead Tech I created Bird Life, a bird pooping game.</p>
+							<p>Paint the beach white as you have 60 seconds to get the best score.</p>
+							
+							
+							
+							
+							<iframe width="710" height="400"
+							src="http://www.youtube.com/embed/MVjI9yqqULs">
+							</iframe>
+							
+							
+							<p>Created in Unreal Engine 4.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Links:
+                                    <strong><a href="https://www.facebook.com/Bird-life-1695178144052509/?fref=ts">Facebook Page</a>
+									<a href="https://www.youtube.com/watch?v=MVjI9yqqULs">Release Video</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -37,4 +104,172 @@
             </div>
         </div>
     </div>
-{% endfor %}
+    <div class="portfolio-modal modal fade" id="Maxwell" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Maxwell's Farm</h2>
+                            <hr class="star-primary">
+                            
+                            <p>A disease known as concupiscent anthrax has hit the farm. Fight to survive and save the one you love.</p>
+							<img src="img/portfolio/Maxwell/Maxwell.jpg" class="img-responsive img-centered" alt="" data-vidid="">
+							
+							<p>Screenshots.</p>
+							<img src="img/portfolio/Maxwell/Maxwell1.png" class="img-responsive img-centered" alt="" data-vidid="">
+							<img src="img/portfolio/Maxwell/Maxwell2.png" class="img-responsive img-centered" alt="" data-vidid="">
+							
+							<p>Created in Unity.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="dond" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Deal or no Deal</h2>
+                            <hr class="star-primary">
+                            <!-- <img src="img/portfolio/BirdLife.jpg" class="img-responsive img-centered" alt=""> -->
+							<div id="ytvideo" style="display:none;"></div>
+							<img id="video" src="img/portfolio/dond.png" class="img-responsive img-centered" alt="" data-vidid="">
+                            <p>From creating my own engine in C++ and OpenGL, I developed Deal or no Deal. Beat the banker!</p>
+							<p>Created in my own engine using C++ and OpenGL.</p>
+                            <ul class="list-inline item-details">
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="Cactus" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Cactus Care</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/CactusCare.jpg" class="img-responsive img-centered" alt="" data-vidid="">
+                            <p>As a side project I created Cactus Care. Look after a Cactus by watering, feeding, letting it sleep playing mini games with it. Like you do with a normal cactus.</p>
+							<p>Created in Unity.</p>
+                            <ul class="list-inline item-details">
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="FM" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Football Manager</h2>
+                            <hr class="star-primary">
+							<p>In this fast paced take on football management take control of a team and become the best in the league.</p>
+                            <img src="img/portfolio/FM/FM4.png" class="img-responsive img-centered" alt="" data-vidid="">
+                            
+							
+							<p>Features:</p>
+							<p>Buy players and selling players.</p>
+							<img src="img/portfolio/FM/FM2.png" class="img-responsive img-centered" alt="" data-vidid="">							
+							
+							<p>Team Selection and formations.</p>
+							<img src="img/portfolio/FM/FM.png" class="img-responsive img-centered" alt="" data-vidid="">		
+							
+							<p>Play Matches.</p>
+							<img src="img/portfolio/FM/FM3.png" class="img-responsive img-centered" alt="" data-vidid="">
+							
+							
+							
+							
+							<p>Created in Unreal Engine 4.</p>
+                            <ul class="list-inline item-details">
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="FSU" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hijacked</h2>
+                            <hr class="star-primary">
+							<p>In this fast paced roguelike game, I set out to create a unique city in which the player can explore. After each death the player chooses their next loadout from a varity of weapons and ammo upgrades and then chooses from the pool of characters left that are still alive in which to hijack, the problem some have defects some have advantages.</p>
+							
+                            <img src="img/portfolio/FSU/UIStart.png" class="img-responsive img-centered" alt="" data-vidid="">
+                            
+							
+							<p>Screenshots:</p>
+							<p>Character Selection.</p>
+							<img src="img/portfolio/FSU/UICharacter.png" class="img-responsive img-centered" alt="" data-vidid="">							
+							
+							<p></p>
+							<img src="img/portfolio/FSU/Gameplay1.png" class="img-responsive img-centered" alt="" data-vidid="">		
+							
+							<p></p>
+							<img src="img/portfolio/FSU/Gameplay2.png" class="img-responsive img-centered" alt="" data-vidid="">
+							
+							<p>Driveable Cars.</p>
+							<img src="img/portfolio/FSU/GameplayCar.png" class="img-responsive img-centered" alt="" data-vidid="">
+							
+							
+							<p>Created in Unreal Engine 4.</p>
+                            <ul class="list-inline item-details">
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
